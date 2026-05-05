@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "MyCustomFont";
+    src: url("fonts/BodegaScript_0.woff2") format("woff2"),
+         url("fonts/BodegaScript_0.woff") format("woff"),
+         url("fonts/BodegaScript_0.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* улучшает восприятие загрузки */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #faeec8;
+}
+
+.pink {
+    font-family: "MyCustomFont", "Arial", sans-serif;
+    color: #d961ad;
+    font-size: 150px;
+    font-weight: 100;
+}
+
+.blue {
+    font-family: "MyCustomFont", "Arial", sans-serif;
+    color: #7ec7bc;
+    font-size: 150px;
+    font-weight: 100;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;          /* гарантия горизонтального ряда */
+    flex-wrap: nowrap;            /* не переносить на новую строку */
+    justify-content: center;
+    align-items: baseline;
+    gap: 1.8rem;                  /* воздух между именами */
+    margin: 5% auto;
+    width: 100%;
+}
+
+.women{
+    transform: rotate(-20deg);
+}
+
+.men{
+    transform: rotate(20deg);
+}
+
+/* Только на телефонах — включаем обрезку на весь экран */
+@media (max-width: 800px) {
+    body {
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+
+    .pink{
+        font-size: 60px;
+    }
+
+    .blue{
+        font-size: 60px;
+    }
+    
+    .container {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        height: 50vh;
+        overflow: hidden;
+    }
+    
+    .container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
