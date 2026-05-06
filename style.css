@@ -134,7 +134,11 @@ img{
 
 
 /* Только на телефонах — включаем обрезку на весь экран */
-@media (max-width: 800px) {   
+@media (max-width: 800px) {  
+    
+    .fon{
+        display: none;
+    }
     
     .women{
         margin-top: 30px;
