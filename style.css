@@ -132,6 +132,60 @@ img{
     margin-top: -150px;
 }
 
+.date{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.date p {
+    font-size: 130px;
+    margin: -50px;
+}
+
+.text1{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.text1 p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.kulon{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.text2{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.text2 p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.month{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.month p{
+    font-size: 100px;
+}
+
+.month img{
+    transform: scale(1.4);
+    margin-top: -30px;
+}
 
 /* Только на телефонах — включаем обрезку на весь экран */
 @media (max-width: 800px) {  
