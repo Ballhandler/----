@@ -136,10 +136,6 @@ img{
 /* Только на телефонах — включаем обрезку на весь экран */
 @media (max-width: 800px) {  
 
-    .name{
-        margin-top: 70px;
-    }
-
     .item1{
         width: 100px;
         height: auto;
@@ -151,15 +147,14 @@ img{
         height: auto;
         grid-row: 3 / 4;
         margin-left: 100px;
-        margin-top: 0px;
+        margin-top: -20px;
     }
     .item3{
         width: 100px;
         height: auto;
         grid-row: 1 / 4;
-        margin-left: -55px;
-        margin-top: -70px;
-        transform: rotate(-40deg);
+        margin-left: -90px;
+        margin-top: 320px;
     }
     .item4{
         display: none;
@@ -174,13 +169,13 @@ img{
     .item6{
         width: 100px;
         height: auto;
-        margin-top: 10px;
+        margin-top: -20px;
     }
     .item7{
         width: 100px;
         height: auto;
-        margin-left: -30px;
-        margin-top: -30px;
+        margin-left: 10px;
+        margin-top: -100px;
     }
 
     .women{
