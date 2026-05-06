@@ -34,7 +34,7 @@ body{
 
 .name {
     display: flex;
-    flex-direction: row;          /* гарантия горизонтального ряда */
+    flex-direction: row;
     flex-wrap: nowrap;            /* не переносить на новую строку */
     justify-content: center;
     margin: 0 auto;
@@ -146,7 +146,6 @@ img{
 }
 
 .text1{
-    width: 400px;
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -162,7 +161,6 @@ img{
 }
 
 .text2{
-    width: 500px;
     margin: 0 auto;
 }
 
@@ -189,6 +187,19 @@ img{
 
 /* Только на телефонах — включаем обрезку на весь экран */
 @media (max-width: 800px) {  
+
+    .date p {
+        font-size: 50px;
+        margin: -30px;
+    }
+
+    .text1 p,.text2 p{
+        font-size: 20px;
+    }
+
+    .text1{
+        margin-top: 50px;
+    }
 
     .item1{
         width: 100px;
