@@ -188,9 +188,18 @@ img{
 /* Только на телефонах — включаем обрезку на весь экран */
 @media (max-width: 800px) {  
 
+    .month img{
+    transform: scale(1.6);
+    margin-top: -10px;
+}
+
+    .month p{
+        font-size: 70px;
+    }
+
     .date p {
         font-size: 50px;
-        margin: -30px;
+        margin: -20px;
     }
 
     .text1 p,.text2 p{
