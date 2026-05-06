@@ -135,11 +135,54 @@ img{
 
 /* Только на телефонах — включаем обрезку на весь экран */
 @media (max-width: 800px) {  
-    
-    .fon{
+
+    .name{
+        margin-top: 70px;
+    }
+
+    .item1{
+        width: 100px;
+        height: auto;
+        margin-right: 100px;
+        margin-top: 140px;
+    }
+    .item2{
+        width: 100px;
+        height: auto;
+        grid-row: 3 / 4;
+        margin-left: 100px;
+        margin-top: 0px;
+    }
+    .item3{
+        width: 100px;
+        height: auto;
+        grid-row: 1 / 4;
+        margin-left: -55px;
+        margin-top: -70px;
+        transform: rotate(-40deg);
+    }
+    .item4{
         display: none;
     }
-    
+    .item5{
+        width: 100px;
+        height: auto;
+        grid-row: 2 / 4;
+        margin-left: 100px;
+        margin-top: 0px;
+    }
+    .item6{
+        width: 100px;
+        height: auto;
+        margin-top: 10px;
+    }
+    .item7{
+        width: 100px;
+        height: auto;
+        margin-left: -30px;
+        margin-top: -30px;
+    }
+
     .women{
         margin-top: 30px;
     }
