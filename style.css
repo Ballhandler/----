@@ -313,8 +313,6 @@ img{
     .t1{
         grid-column: 1 / 2;
         grid-row: 1 / 6;
-        margin-right: 10px;
-
     }
     .time1{
         grid-column: 1 / 2;
