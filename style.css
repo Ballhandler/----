@@ -327,10 +327,6 @@ img{
 /* Только на телефонах — включаем обрезку на весь экран */
 @media (max-width: 800px) {  
 
-    p{
-        
-    }
-
     .ymap{
         display: none;
     }
@@ -351,7 +347,7 @@ img{
     }
 
     .text3 a{
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .timeimg{
@@ -406,6 +402,13 @@ img{
         column-gap: 50px;
         row-gap: 200px;
         margin-top: -380px;
+    }
+
+    .timeline p{
+        font-size: 20px;
+    }
+    .timeline h1{
+        font-size: 20px;
     }
 
     .t1{
@@ -505,10 +508,18 @@ img{
         margin-top: 50px;
     }
 
+    .text1 p{
+        font-size: 15px;
+    }
+
+    .text2 p{
+        font-size: 15px;
+    }
+
     .item1{
         width: 100px;
         height: auto;
-        margin-right: 100px;
+        margin-right: 80px;
         margin-top: 140px;
     }
     .item2{
