@@ -327,6 +327,14 @@ img{
 /* Только на телефонах — включаем обрезку на весь экран */
 @media (max-width: 800px) {  
 
+    .month{
+        margin-top: 30px;
+    }
+
+    .month img{
+        transform: scale(1.2);
+    }
+
     .ymap{
         display: none;
     }
