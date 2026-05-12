@@ -331,10 +331,6 @@ img{
         margin-top: 30px;
     }
 
-    .month img{
-        transform: scale(1);
-    }
-
     .ymap{
         display: none;
     }
@@ -495,7 +491,7 @@ img{
     }
 
     .month img{
-    transform: scale(1.6);
+    transform: scale(1.4);
     margin-top: -10px;
     }
 
@@ -577,7 +573,9 @@ img{
     }
     
     img{
+        width: 100%;
         max-width: 200px;
+        height: auto;
     }
 
     .pink{
