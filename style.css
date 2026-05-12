@@ -62,6 +62,12 @@ body{
     margin-top: -200px;
 }
 
+.img2{
+    width: 300px;
+    transform: scaleX(-1);
+    margin-right: 100px;
+}
+
 img{
     max-width: 500px;
     height: 100%;
@@ -252,6 +258,28 @@ img{
 .line4,.line5,.line6{
     width: 120px;
     height: auto;
+}
+
+.map p{
+    font-size: 130px;  
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.text3{
+    margin-top: -20px;
+}
+
+.text3 p {
+    width: 600px;
+    font-size: 25px;
+    text-align: center;
 }
 
 /* Только на телефонах — включаем обрезку на весь экран */
