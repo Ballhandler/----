@@ -491,8 +491,10 @@ img{
     }
 
     .month img{
-    transform: scale(1.4);
-    margin-top: -10px;
+        width: 140%;  /* Вместо scale(1.4) */
+        height: auto;
+        margin-top: -10px;
+        position: relative;
     }
 
     .month p{
