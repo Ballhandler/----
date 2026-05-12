@@ -8,6 +8,16 @@
     font-display: swap; /* улучшает восприятие загрузки */
 }
 
+@font-face {
+    font-family: "MyCustomFont2";
+    src: url("fonts/Mltsvfont1.woff2") format("woff2"),
+         url("fonts/Mltsvfont1.woff") format("woff"),
+         url("fonts/Mltsvfont1.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* улучшает восприятие загрузки */
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +26,12 @@
 
 body{
     background-color: #faeec8;
+}
+
+p{
+    font-family: "MyCustomFont2", "Arial", sans-serif; 
+    font-weight: 100;
+    color: #2f2e2fe0;
 }
 
 .pink {
@@ -60,12 +76,6 @@ body{
     width: 500px;
     margin: 0 auto;
     margin-top: -200px;
-}
-
-.img2{
-    width: 300px;
-    transform: scaleX(-1);
-    margin-right: 100px;
 }
 
 img{
@@ -202,7 +212,7 @@ img{
 
 .timeline{
     display: grid;
-    grid-template-columns: repeat(3, 150px);
+    grid-template-columns: repeat(3, 170px);
     grid-template-rows: repeat(4, auto);
     column-gap: 200px;
     row-gap: 110px;
@@ -214,6 +224,7 @@ img{
 .timeline p{
     font-size: 25px;
     text-align: center;
+    color: #2f2e2fe0;
 }
 
 .timeline h1{
@@ -250,18 +261,41 @@ img{
     margin-top: -350px;
 }
 
-.line1,.line2,.line3{
-    width: 150px;
+.line1{
+    width: 130px;
     height: auto;
+}
+.line2{
+    width: 110px;
+    height: auto;
+}
+.line3{
+    width: 110px;
+    height: auto;
+}
+.line4{
+    width: 80px;
+    height: auto;
+}
+.line5{
+    width: 80px;
+    height: auto;
+}
+.line6{
+    width: 110px;
+    height: auto;
+    margin-top: 30px;
 }
 
-.line4,.line5,.line6{
-    width: 120px;
-    height: auto;
-}
 
 .map p{
     font-size: 130px;  
+}
+
+.img2{
+    width: 400px;
+    transform: scaleX(-1);
+    margin-right: 100px;
 }
 
 .map{
@@ -274,16 +308,47 @@ img{
 
 .text3{
     margin-top: -20px;
+    width: 600px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.text3 p {
-    width: 600px;
+.text3 a {
+    color: #2f2e2f;
     font-size: 25px;
-    text-align: center;
+    text-decoration: none;
+}
+
+.ymap{
+    width: 350px;
+    height: 290px;
 }
 
 /* Только на телефонах — включаем обрезку на весь экран */
 @media (max-width: 800px) {  
+
+    .ymap{
+        display: none;
+    }
+
+    .img2{
+        margin: 0  auto;
+        margin-top: 50px;
+        scale: 1.5;
+    }
+
+    .map p{
+        margin-top: -60px;
+        font-size: 80px;
+    }
+
+    .text3{
+        width: 300px;
+    }
+
+    .text3 a{
+        font-size: 15px;
+    }
 
     .timeimg{
         grid-template-columns: repeat(2, auto);
@@ -319,11 +384,12 @@ img{
 
     .line5,.line6{
         margin-top: 30px;
-        width: 70px;
+        width: 80px;
         height: auto;
     }
     .line5{
         margin-left: -80px;
+        width: 60px;
     }
     .line6{
         margin-left: -200px;
@@ -331,7 +397,7 @@ img{
 
 
     .timeline{
-        grid-template-columns: repeat(2, 150px);
+        grid-template-columns: repeat(2, 170px);
         grid-template-rows: repeat(6, auto);
         column-gap: 50px;
         row-gap: 200px;
