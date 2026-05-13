@@ -394,7 +394,7 @@ p{
         grid-column: 1 / 2;
         grid-row: 2 / 6;
         margin-top: -140px;
-        margin-right: 50px;
+        margin-right: 30px;
     }
     .t2{
         grid-column: 2 / 2;
@@ -526,6 +526,23 @@ p{
 
     .fon img{
         width: 100%;
+        height: auto;
+    }
+
+    .dress{
+        margin-top: 30px;
+    }
+    
+    .dresst{
+        width: 350px;
+        margin: 0;
+    }
+    .dresst p{
+        font-size: 15px;
+    }
+
+    .dressImg{
+        width: 400px;
         height: auto;
     }
 
