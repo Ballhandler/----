@@ -279,7 +279,7 @@ p{
 }
 
 /* Только на телефонах — включаем обрезку на весь экран */
-@media (max-width: 800px) {  
+@media (max-width: 1024px) {  
 
     .img2{
          display: none;
@@ -526,5 +526,10 @@ p{
     .img1{
         width: 200px;
         margin-top: -90px;
+    }
+
+    .container{
+        width: 100%;
+        overflow: hidden
     }
 }
