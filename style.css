@@ -64,33 +64,8 @@ p{
     margin-top: 100px;
 }
 
-.name .pink{
-    transform: rotate(-20deg);
-}
-
-.women{
-    margin-top: 70px;
-
-}
-
-.men{
-    transform: rotate(15deg);
-}
-
-.img1{
-    width: 500px;
-    height: auto;
-    margin: 0 auto;
-    margin-top: -230px;
-}
-
-.img1 img{
-    width: 500px;
-}
-
 .fon{
     display: flex;
-    position: absolute;
     margin-top: 40px;
     margin-left: 10px;
 }
@@ -498,18 +473,6 @@ p{
         font-size: 15px;
     }
 
-    .name{
-        margin-top: 30px;
-    }
-
-    .women{
-        margin-top: 30px;
-    }
-
-    .fon{
-        margin-top: 15px;
-    }
-    
     .pink{
         font-size: 60px;
     }
@@ -518,19 +481,19 @@ p{
         font-size: 60px;
     }
 
-    .fon img{
-        width: 400px;
-        display: block;    /* 🔥 убирает магический отступ снизу */
-        height: auto;      /* сохраняем пропорции */
+    .name{
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
-    .img1 img{
-        width: 200px;
+    .fon{
+        width: 500px;
         height: auto;
     }
 
-    .img1{
-        width: 200px;
-        margin-top: -90px;
+    .fon img{
+        width: 100%;
+        height: auto;
     }
+
 }
