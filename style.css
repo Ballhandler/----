@@ -74,24 +74,24 @@ p{
 
 .img1{
     width: 500px;
+    height: auto;
     margin: 0 auto;
     margin-top: -230px;
 }
 
-img{
-    max-width: 500px;
-    height: 100%;
+.img1 img{
+    width: 500px;
 }
 
 .fon{
     display: flex;
     position: absolute;
-    margin-top: 210px;
+    margin-top: 40px;
     margin-left: 10px;
 }
 
 .fon img{
-    transform: scale(2);
+    width: 1000px;
 }
 
 .date{
@@ -281,8 +281,8 @@ img{
 /* Только на телефонах — включаем обрезку на весь экран */
 @media (max-width: 800px) {  
 
-    .fon{
-        margin-top: 85px;
+    .img2{
+         display: none;
     }
     
     .month{
@@ -449,7 +449,7 @@ img{
     }
 
     .month img{
-        width: 140%;  /* Вместо scale(1.4) */
+        width: 180px;  /* Вместо scale(1.4) */
         height: auto;
         margin-top: -10px;
         position: relative;
@@ -500,24 +500,30 @@ img{
     .women{
         margin-top: 30px;
     }
-    
-    .img1{
-        width: 200px;
-        margin: 0 auto;
-        margin-top: -95px;
-    }
-    
-    img{
-        width: 100%;
-        max-width: 200px;
-        height: auto;
-    }
 
+    .fon{
+        margin-top: 20px;
+    }
+    
     .pink{
         font-size: 60px;
     }
 
     .blue{
         font-size: 60px;
+    }
+
+    .fon img{
+        width: 400px;
+    }
+
+    .img1 img{
+        width: 200px;
+        height: auto;
+    }
+
+    .img1{
+        width: 200px;
+        margin-top: -90px;
     }
 }
