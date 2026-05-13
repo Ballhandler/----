@@ -28,6 +28,11 @@ body{
     background-color: #faeec8;
 }
 
+.container{
+    width: 100%;
+    overflow: hidden
+}
+
 p{
     font-family: "MyCustomFont2", "Arial", sans-serif; 
     font-weight: 100;
@@ -516,6 +521,8 @@ p{
 
     .fon img{
         width: 400px;
+        display: block;    /* 🔥 убирает магический отступ снизу */
+        height: auto;      /* сохраняем пропорции */
     }
 
     .img1 img{
@@ -526,10 +533,5 @@ p{
     .img1{
         width: 200px;
         margin-top: -90px;
-    }
-
-    .container{
-        width: 100%;
-        overflow: hidden
     }
 }
