@@ -111,7 +111,7 @@ p{
 
 .text2{
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .text2 p {
@@ -168,11 +168,13 @@ p{
 
 .time1,.time2,.time4,.time5{
     margin-top:-200px ;
+    color: #2f2e2fe0;
 }
 
 .time3,.time6{
     margin-top:-170px ;
     margin-left: 50px;
+    color: #2f2e2fe0;
 }
 
 .time1,.time4{
@@ -258,8 +260,43 @@ p{
     height: 290px;
 }
 
+.dress{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.dresst{
+    width:600px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.dresst p {
+    font-size: 25px;
+}
+
+.dressImg{
+    width: 1000px;
+    height: auto;
+}
+
+.dressImg img{
+    width: 100%;
+}
+
+
+
 /* Только на телефонах — включаем обрезку на весь экран */
-@media (max-width: 1024px) {  
+@media (max-width: 1024px) {
+
+    .ymap{
+        width: 300px;
+        height: 290px;
+    }
 
     .img2{
          display: none;
@@ -267,10 +304,6 @@ p{
     
     .month{
         margin-top: 30px;
-    }
-
-    .ymap{
-        display: none;
     }
 
     .img2{
@@ -482,8 +515,8 @@ p{
     }
 
     .name{
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 20px;
+        margin-bottom: 100px;
     }
 
     .fon{
