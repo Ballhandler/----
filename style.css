@@ -400,6 +400,10 @@ option{
 /* Только на телефонах — включаем обрезку на весь экран */
 @media (max-width: 1024px) {
 
+    .test{
+        width: 350px;
+    }
+
     .ymap{
         width: 300px;
         height: 290px;
