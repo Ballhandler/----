@@ -393,6 +393,31 @@ option{
     margin-bottom: 30px;
 }
 
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ok{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: transparent;
+    margin-top: 20px;
+    border: 1px solid #2f2e2f;
+    font-size: 16px;
+    font-family: "MyCustomFont2", "Arial", sans-serif; 
+    font-weight: 100;
+}
+
+.end{
+    width: 140px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
 
 
 
