@@ -51,7 +51,7 @@ async function sendToTelegram(data) {
 // Функция валидации формы
 function validateForm(formData) {
     if (!formData.fullName.trim()) {
-        alert('❌ Пожалуйста, введите ФИО гостя');
+        alert('❌ Пожалуйста, введите ФИ гостя');
         return false;
     }
     
