@@ -177,16 +177,10 @@ document.addEventListener('DOMContentLoaded', () => {
         submitButton.addEventListener('click', handleSubmit);
     }
     
-    // Добавляем визуальные эффекты
-    addVisualStyles();
-    
     console.log('✅ Анкета загружена и готова к работе');
     console.log('💡 Для тестирования Telegram бота введите в консоли: testTelegramConnection()');
 });
 
-
-// Делаем функции доступными в консоли для отладки
-window.testTelegramConnection = testTelegramConnection;
 window.resetForm = resetForm;
 window.collectFormData = collectFormData;
 
